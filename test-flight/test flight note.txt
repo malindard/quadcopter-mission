@@ -1,0 +1,38 @@
+TEST FLIGHT:
+1. Run program demo.py: 1m, 0.5m, 0.3m
+2. Run program simple-menu.py:
+ masih pake menu/ketik manual
+ - takeoff 0.5
+ - navigate forward 1m
+ - position hold mode
+ - guided mode
+ - change altitude 1m
+ - navigate forward 2.95m
+ - navigate left 4.93
+ - change altitude 0.5m
+ - position hold mode
+ - guided mode
+ - navigate backward 3
+ - land mode
+ - exit
+3. Run program auto-nav.py:
+ - takeoff 0.5
+ - navigate forward 1m
+ - position hold mode
+ - guided mode
+ - change altitude 1m
+ - navigate forward 2.95m
+ - navigate left 4.93
+ - change altitude 0.5m
+ - position hold mode
+ - guided mode
+ - navigate backward 3
+ - land mode
+ - exit
+4. Run program auto-no-detect.py BUT with camera:
+ - takeoff+camera on+orange detection on
+ - navigate forward 1m
+ - position hold mode
+ - print a command that the object is detected
+ - navigate forward 2m
+ - land mode
